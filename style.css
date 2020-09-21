@@ -155,7 +155,7 @@ footer{
 /* Styling specific to index.html */ 
 #page-index > header > #header-banner{
 	background-image: linear-gradient( rgba(0,0,0,0.35), rgba(0,0,0,0.4) ),
-	url("../assets/index-banner.jpg");
+	url("/assets/index-banner.jpg");
 	/* image source: https://www.pexels.com/photo/shallow-focus-photography-of-cannabis-plant-606506/ */ 
 }
 
@@ -185,10 +185,21 @@ footer{
 }
 
 .body-gallery-img{
-	background-image: url("https://picsum.photos/300/500");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50%;
 	width: 50%;
-	height: 20rem;
+	height: 25rem;
+}
+
+.body-gallery:nth-child(2) > .body-gallery-img{
+	background-image: url("assets/index-jar.jpg");
+}
+
+.body-gallery:nth-child(3) > .body-gallery-img{
+	background-image: url("assets/index-farmer.jpg");
+}
+
+.body-gallery:nth-child(4) > .body-gallery-img{
+	background-image: url("assets/index-plant.jpg");
 }
