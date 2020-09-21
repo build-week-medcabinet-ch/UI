@@ -265,6 +265,8 @@ footer{
 	#body{
 		max-width: 90%;
 	}
+
+	/* Styling specific to index.html */ 
 	
 	#page-index .body-gallery{
 		flex-direction: column;
@@ -292,6 +294,17 @@ footer{
 	#page-index .body-gallery:nth-child(3) .body-gallery-text{
 		text-align: left;
 		padding: 2rem 0 0 0;
+	}
+
+	/* Styling specific to about.html */ 
+
+	#page-about #body-top-text{
+		padding: 1% 0;
+	}
+
+	#page-about #team-gallery{
+		width: 100%;
+		justify-content: space-evenly;
 	}
 }
 
