@@ -120,7 +120,7 @@ footer{
 	justify-content: space-between;
 	align-items: center;
 	max-width: var(--content-max-width);
-	height: 10vh;
+	height: 5rem;
 	color: white;
 	margin: auto; 
 }
