@@ -125,6 +125,11 @@ nav > a{
 	font-weight: 300;
 }
 
+#body-top-text{
+	padding: 1% 10%;
+	font-size: 1.5rem;
+}
+
 footer{
 	background-color: darkgray;
 	font-size: 1.5rem;
@@ -159,32 +164,30 @@ footer{
 	/* image source: https://www.pexels.com/photo/shallow-focus-photography-of-cannabis-plant-606506/ */ 
 }
 
-#body-top-text{
-	padding: 1% 10%;
-	font-size: 1.5rem;
+#page-index #body-top-text{
 	font-weight: 400;
 	font-family: 'Maven Pro', sans-serif;
 }
 
-.body-gallery{
+#page-index .body-gallery{
 	display:flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 2.5rem 0;
 }
 
-.body-gallery-text{
+#page-index .body-gallery-text{
 	width: 50%;
 	padding-left: 2.5rem;
 }
 
-.body-gallery-text:nth-child(1){
+#page-index .body-gallery-text:nth-child(1){
 	text-align: right;
 	padding-right: 2.5rem;
 	padding-left: 0;
 }
 
-.body-gallery-img{
+#page-index .body-gallery-img{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50%;
@@ -193,17 +196,19 @@ footer{
 	border-radius: 50px;
 }
 
-.body-gallery:nth-child(2) > .body-gallery-img{
+#page-index .body-gallery:nth-child(2) > .body-gallery-img{
 	background-image: url("assets/index-jar.jpg");
 	/* image source: https://unsplash.com/photos/X29BDflJyxM */
 }
 
-.body-gallery:nth-child(3) > .body-gallery-img{
+#page-index .body-gallery:nth-child(3) > .body-gallery-img{
 	background-image: url("assets/index-farmer.jpg");
 	/* image source: https://unsplash.com/photos/epI_rEeUrJA */
 }
 
-.body-gallery:nth-child(4) > .body-gallery-img{
+#page-index .body-gallery:nth-child(4) > .body-gallery-img{
 	background-image: url("assets/index-plant.jpg");
 	/* image source: https://unsplash.com/photos/khBv48d45bU */ 
 }
+
+/* Styling specific to index.html */ 
