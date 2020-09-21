@@ -52,10 +52,6 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&display=swap');
 
-:root{
-	--content-max-width: 80%;
-}
-
 *{
 	max-width: 100%;
 }
@@ -69,7 +65,7 @@ html{
 	display: flex; 
 	justify-content: space-between;
 	align-items: center;
-	max-width: var(--content-max-width);
+	max-width: 80%;
 	margin: auto; 
 	height: 5rem;
 	font-size: 1.5rem;
@@ -95,7 +91,7 @@ nav > a{
 }
 
 #header-banner-text{
-	max-width: var(--content-max-width);
+	max-width: 80%;
 	margin: auto;
 	text-align: center;
 	color: white;
@@ -118,7 +114,7 @@ nav > a{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	max-width: var(--content-max-width);
+	max-width: 80%;
 	margin: auto;
 	padding: 2.5rem 0;
 	font-size: 1.4rem;
@@ -140,7 +136,7 @@ footer{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	max-width: var(--content-max-width);
+	max-width: 80%;
 	height: 5rem;
 	color: white;
 	margin: auto; 
@@ -266,7 +262,21 @@ footer{
 
 /* Styling for responsive design */ 
 @media(max-width:800px){
+	#page-index .body-gallery{
+		flex-direction: column;
+	}
 
+	#page-index .body-gallery-img{
+		width: 90%;
+	}
+
+	#page-index .body-gallery-text{
+		width: 100%;
+	}
+
+	#page-index .body-gallery:nth-child(3){
+		flex-direction: column-reverse;
+	}
 }
 
 @media(max-width:500px){
