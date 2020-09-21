@@ -50,7 +50,7 @@ table {
 /* Styling for common page elements */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&display=swap');
 
 :root{
 	--content-max-width: 80%;
@@ -212,37 +212,52 @@ footer{
 
 /* Styling specific to about.html */ 
 
-/* For testing, delete to remove borders on all elements */ 
-#page-about *{
-	/* For testing, delete to remove borders on all elements */ 
-	border: 1px solid lightblue;
-}
-
 #page-about > header > #header-banner{
 	background-image: linear-gradient( rgba(0,0,0,0.35), rgba(0,0,0,0.4) ),
 	url("/assets/about-banner.jpg");
 	/* image source: https://www.pexels.com/photo/close-up-photo-of-kush-on-glass-container-1466335/ */ 
 }
 
+#page-about h2{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 3rem;
+	font-weight: 600;
+	padding: 1rem 0;
+}
+
 #page-about #team-gallery{
 	display: flex; 
-	justify-content: space-evenly;
+	justify-content: center;
 	flex-wrap: wrap;
-	width: 80%;
+	width: 90%;
 }
 
 #page-about .body-gallery{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 20%;
-	padding: 1%;
+	width: 18rem;
+	padding: 2.5%;
 }
 
 #page-about .body-gallery img{
 	border-radius: 50%;
 	padding: 5%;
 	width: 80%;
+}
+
+#page-about h3{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 2rem;
+	font-weight: 500;
+	padding-bottom: 0.2rem;
+}
+
+#page-about h4{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.75rem;
+	font-weight: 400;
+	padding-bottom: 0.5rem;
 }
 
 #page-about .body-gallery p{
