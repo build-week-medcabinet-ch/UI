@@ -190,6 +190,7 @@ footer{
 	background-position: 50%;
 	width: 50%;
 	height: 25rem;
+	border-radius: 50px;
 }
 
 .body-gallery:nth-child(2) > .body-gallery-img{
