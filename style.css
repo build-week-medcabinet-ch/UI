@@ -46,3 +46,47 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Styling for common page elements */
+
+:root{
+	--content-max-width: 80%;
+}
+
+* {
+	max-width: 100%;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+#header-bar{
+	display: flex; 
+	justify-content: space-between;
+	max-width: var(--content-max-width);
+	margin: auto; 
+}
+
+nav > a{
+	color: black; 
+	text-decoration: none;
+}
+
+#header-banner{
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+}
+
+#header-banner-text{
+	max-width: var(--content-max-width);
+	margin: auto;
+}
+
+/* Styling specific to index.html */
+#page-index > header > #header-banner{
+	background-image:url("../assets/index-banner.jpg");
+	/* image source: https://www.pexels.com/photo/shallow-focus-photography-of-cannabis-plant-606506/ */ 
+}
