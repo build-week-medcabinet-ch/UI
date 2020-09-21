@@ -194,12 +194,15 @@ footer{
 
 .body-gallery:nth-child(2) > .body-gallery-img{
 	background-image: url("assets/index-jar.jpg");
+	/* image source: https://unsplash.com/photos/X29BDflJyxM */
 }
 
 .body-gallery:nth-child(3) > .body-gallery-img{
 	background-image: url("assets/index-farmer.jpg");
+	/* image source: https://unsplash.com/photos/epI_rEeUrJA */
 }
 
 .body-gallery:nth-child(4) > .body-gallery-img{
 	background-image: url("assets/index-plant.jpg");
+	/* image source: https://unsplash.com/photos/khBv48d45bU */ 
 }
