@@ -263,3 +263,12 @@ footer{
 #page-about .body-gallery p{
 	text-align: center;
 }
+
+/* Styling for responsive design */ 
+@media(max-width:800px){
+
+}
+
+@media(max-width:500px){
+
+}
