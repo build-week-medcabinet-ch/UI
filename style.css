@@ -105,9 +105,37 @@ nav > a{
 }
 #header-banner-text > h2{
 	font-size: 1.5rem;
-	font-weight: 00;
+	font-weight: 300;
 	padding: 1rem;
 }
+
+footer{
+	background-color: darkgray;
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+#footer-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: var(--content-max-width);
+	height: 10vh;
+	color: white;
+	margin: auto; 
+}
+
+#contact > a{
+	color: white;
+	text-decoration: none;
+}
+
+
+#social > a > img{
+	height: 2rem;
+	padding-right: 1.5rem;
+}
+
 
 #page-index > header > #header-banner{
 	background-image: linear-gradient( rgba(0,0,0,0.35), rgba(0,0,0,0.4) ),
