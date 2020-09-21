@@ -69,13 +69,17 @@ html{
 #header-bar{
 	display: flex; 
 	justify-content: space-between;
+	align-items: center;
 	max-width: var(--content-max-width);
 	margin: auto; 
+	height: 5rem;
+	font-size: 1.5rem;
 }
 
 nav > a{
 	color: black; 
 	text-decoration: none;
+	padding: 0 1.5rem;
 }
 
 #header-banner{
