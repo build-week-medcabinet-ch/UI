@@ -56,9 +56,8 @@ table {
 	--content-max-width: 80%;
 }
 
-* {
+*{
 	max-width: 100%;
-
 }
 
 html{
@@ -118,6 +117,7 @@ nav > a{
 #body{
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	max-width: var(--content-max-width);
 	margin: auto;
 	padding: 2.5rem 0;
@@ -150,7 +150,6 @@ footer{
 	color: white;
 	text-decoration: none;
 }
-
 
 #social > a > img{
 	height: 2rem;
@@ -211,4 +210,41 @@ footer{
 	/* image source: https://unsplash.com/photos/khBv48d45bU */ 
 }
 
-/* Styling specific to index.html */ 
+/* Styling specific to about.html */ 
+
+/* For testing, delete to remove borders on all elements */ 
+#page-about *{
+	/* For testing, delete to remove borders on all elements */ 
+	border: 1px solid lightblue;
+}
+
+#page-about > header > #header-banner{
+	background-image: linear-gradient( rgba(0,0,0,0.35), rgba(0,0,0,0.4) ),
+	url("/assets/about-banner.jpg");
+	/* image source: https://www.pexels.com/photo/close-up-photo-of-kush-on-glass-container-1466335/ */ 
+}
+
+#page-about #team-gallery{
+	display: flex; 
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	width: 80%;
+}
+
+#page-about .body-gallery{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 20%;
+	padding: 1%;
+}
+
+#page-about .body-gallery img{
+	border-radius: 50%;
+	padding: 5%;
+	width: 80%;
+}
+
+#page-about .body-gallery p{
+	text-align: center;
+}
