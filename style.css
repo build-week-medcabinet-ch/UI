@@ -137,9 +137,13 @@ footer{
 	justify-content: space-between;
 	align-items: center;
 	max-width: 80%;
-	height: 5rem;
+	height: auto;
 	color: white;
 	margin: auto; 
+}
+
+#footer-content > div{
+	padding: 2% 0;
 }
 
 #contact > a{
@@ -330,5 +334,14 @@ footer{
 	/* Styling specific to index.html */ 
 	#page-about #body{
 		max-width: 80%;
+	}
+
+	#footer-content{
+		flex-direction: column;
+		padding: 4% 0;
+	}
+
+	#footer-content > div{
+		padding: 2.5% 0;
 	}
 }
