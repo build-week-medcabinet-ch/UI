@@ -338,7 +338,7 @@ footer{
 		max-width: 100%;
 	}
 
-	#header-bar > span{
+	#header-bar > a{
 		display: none;
 	}
 
