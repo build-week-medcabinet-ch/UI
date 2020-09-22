@@ -59,6 +59,7 @@ table {
 html{
 	font-size: 62.5%;
 	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
 }
 
 #header-bar{
@@ -72,7 +73,7 @@ html{
 	padding: 2.5rem 0;
 }
 
-#header-bar > span > a{
+#header-bar > a{
 	font-family: 'Maven Pro', sans-serif;
 	font-weight: 600;
 	font-size: 2rem;
@@ -84,6 +85,12 @@ nav > a{
 	color: black; 
 	text-decoration: none;
 	padding: 0 1.5rem;
+	font-weight: 500;
+}
+
+nav > a:hover{
+	color: #006666;
+	font-weight: 600;
 }
 
 #header-banner{
@@ -131,7 +138,7 @@ nav > a{
 }
 
 footer{
-	background-color: darkgray;
+	background-color: #336666;
 	font-size: 1.5rem;
 	font-weight: 300;
 }
