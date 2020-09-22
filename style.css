@@ -315,4 +315,20 @@ footer{
 		margin: 2rem 0;
 		max-width: 100%;
 	}
+
+	/* Styling specific to index.html */ 
+	#page-index #body{
+		max-width: 100%;
+	}
+
+	#page-index .body-gallery-img{
+		border-radius: 0;
+		height: 30vh;
+		
+	}
+
+	/* Styling specific to index.html */ 
+	#page-about #body{
+		max-width: 80%;
+	}
 }
