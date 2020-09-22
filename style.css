@@ -274,6 +274,14 @@ footer{
 		max-width: 90%;
 	}
 
+	#contact{
+		font-size: 1.75rem;
+	}
+
+	#social > a > img{
+		height: 2rem;
+	}
+
 	/* Styling specific to index.html */ 
 	
 	#page-index .body-gallery{
@@ -327,6 +335,34 @@ footer{
 		display: none;
 	}
 
+	#footer-content{
+		flex-direction: column;
+		padding: 4% 0;
+	}
+
+	#footer-content > div{
+		padding: 2.5% 0;
+	}
+
+	#social > a > img{
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
+		height: 2.5rem;
+	}
+
+	#social{
+		order: 0;
+	}
+
+	#contact{
+		order: 1;
+		margin-top: 0.2rem;
+	}
+
+	#copyright{
+		order: 2;
+	}
+
 	/* Styling specific to index.html */ 
 	#page-index #body{
 		max-width: 100%;
@@ -342,13 +378,4 @@ footer{
 	#page-about #body{
 		max-width: 80%;
 	}
-
-	#footer-content{
-		flex-direction: column;
-		padding: 4% 0;
-	}
-
-	#footer-content > div{
-		padding: 2.5% 0;
-	}
-}
+} 
