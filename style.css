@@ -174,12 +174,12 @@ footer{
 	/* image source: https://www.pexels.com/photo/shallow-focus-photography-of-cannabis-plant-606506/ */ 
 }
 
-#page-index #body-top-text{
+#page-index #body-top-text p{
 	font-weight: 400;
 	font-family: 'Maven Pro', sans-serif;
-	font-size: 2rem;
+	font-size: 2.5rem;
 	text-align: center;
-	line-height: 1.4;
+	padding: 0.5rem 0;
 }
 
 #page-index .body-gallery{
@@ -192,13 +192,15 @@ footer{
 #page-index .body-gallery-text{
 	width: 50%;
 	padding-left: 2.5rem;
+	font-size: 1.75rem;
+	line-height: 1.2;
 }
 
 #page-index  h3{
 	font-family: 'Maven Pro', sans-serif;
-	font-size: 2.25rem;
+	font-size: 3rem;
 	font-weight: 400;
-	padding-bottom: 0.2rem;
+	padding-bottom: 1rem;
 }
 
 #page-index .body-gallery-text:nth-child(1){
@@ -237,6 +239,11 @@ footer{
 	background-image: linear-gradient( rgba(0,0,0,0.35), rgba(0,0,0,0.4) ),
 	url("/assets/about-banner.jpg");
 	/* image source: https://www.pexels.com/photo/close-up-photo-of-kush-on-glass-container-1466335/ */ 
+}
+
+#page-about #body-top-text{
+	font-size: 1.75rem;
+	line-height: 1.2;
 }
 
 #page-about h2{
