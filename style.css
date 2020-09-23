@@ -314,6 +314,10 @@ footer{
 		padding: 2rem 0 0 0;
 	}
 
+	#page-index .body-gallery-text h3{
+		margin: 0 3rem;
+	}
+
 	#page-index .body-gallery-text p{
 		margin: 0 3rem;
 	}
