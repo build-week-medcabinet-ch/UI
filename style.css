@@ -248,9 +248,9 @@ footer{
 
 #page-about h2{
 	font-family: 'Maven Pro', sans-serif;
-	font-size: 3rem;
+	font-size: 4rem;
 	font-weight: 600;
-	padding: 1rem 0;
+	padding: 3rem 0 1.5rem 0;
 }
 
 #page-about #team-gallery{
